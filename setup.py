@@ -5,10 +5,10 @@ with open('README.md', 'r') as f:
 # with open('requirements.txt', 'r') as f:
 #     requirements = f.read().splitlines()
 setup(
-    name="rpizero-hid",  # How you named your package folder
+    name="rpizerohid",  # How you named your package folder
     packages=['rpizerohid', 'rpizerohid.hid'],  # Chose the same as "name"
     include_package_data=True,
-    version="v0.0.2",  # Start with a small number and increase it with every change you make
+    version="v0.0.3",  # Start with a small number and increase it with every change you make
     license="MIT",  # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     description="Library for emulate mouse and keyboard on raspberry pi zero",  # Give a short description about your library
     long_description=long_description,
